@@ -4,32 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Science Project</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            padding-top: 50px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+        }
+        .section {
+            margin: 20px 0;
         }
     </style>
 </head>
 <body>
 <div class="container">
-    <h1 class="text-center">Data Science Project</h1>
+    <h1>Data Science Project</h1>
     <p class="text-center">An overview of my data science project.</p>
 
-    <h2>Introduction</h2>
-    <p>Describe your project here.</p>
+    <div class="section" id="introduction">
+        <h2>Introduction</h2>
+        <p>Describe your project here.</p>
+    </div>
 
-    <h2>Data</h2>
-    <p>Information about the data you used.</p>
+    <div class="section" id="data">
+        <h2>Data</h2>
+        <p>Information about the data you used.</p>
+    </div>
 
-    <h2>Methodology</h2>
-    <p>Details about the methods and techniques you applied.</p>
+    <div class="section" id="methodology">
+        <h2>Methodology</h2>
+        <p>Details about the methods and techniques you applied.</p>
+    </div>
 
-    <h2>Results</h2>
-    <p>Present your results here.</p>
+    <div class="section" id="results">
+        <h2>Results</h2>
+        <p>Present your results here.</p>
+        <img src="images/plot1.png" alt="Plot 1">
+        <img src="images/plot2.png" alt="Plot 2">
+    </div>
 
-    <h2>Conclusion</h2>
-    <p>Summarize your findings and implications.</p>
+    <div class="section" id="conclusion">
+        <h2>Conclusion</h2>
+        <p>Summarize your findings and implications.</p>
+    </div>
 </div>
 </body>
 </html>
